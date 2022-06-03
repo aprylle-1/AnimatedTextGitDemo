@@ -2,7 +2,7 @@ const spans = document.querySelectorAll("span")
 
 const randomRGB = function(){
     const r = Math.round(Math.random() * 256);
-    const g = Math.round(Math.random() * 256);
+    const g = 0;
     const b = Math.round(Math.random() * 256);
     const color = `rgb(${r}, ${g}, ${b})`
     return color
